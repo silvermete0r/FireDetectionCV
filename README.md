@@ -2,7 +2,7 @@
 Computer Vision program for detecting fire in video and images. The program was developed by the AIturbo team as solution of a case from Smart System Technologies in ML-fest hackathon. 
 
 ## About the project
-1) The fire detection training model was written in Python using Tensorflow & Keras;
+1) The fire detection training model was written in **Python** using **Tensorflow** & **Keras**;
 2) `train_imgs` dataset was used as data for training the model;
 3) `PandNdivider.py` script was used to divide images into 2 datasets: **negative** & **positive** by the labels in `train_labels.csv` file;
 4) Generated model name is `fire_model.h5`;
