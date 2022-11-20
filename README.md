@@ -10,6 +10,9 @@ Computer Vision program for detecting fire in video and images. The program was 
 6) `test_labels.csv` contains results of the processing of all images of `test_imgs` dataset in which the class `1` means the presence of fire, and `0` its absence;
 
 ## Testing & Results
+
+**Final results of testing our program in the `test_labels.csv` file!**
+
 [![Testing Results][test-imgs-results]][contributors-url]
 
 
