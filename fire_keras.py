@@ -1,8 +1,8 @@
 from keras.models import load_model
 from PIL import Image, ImageOps
+import pandas as pd
 import numpy as np
 import os
-import pandas as pd
 
 np.set_printoptions(suppress=True)
 
@@ -17,15 +17,15 @@ negative = []
 total_score = 0
 
 for testImg in test_imgs:
-    image = Image.open(f'test_imgs/{testImg}').convert('RGB')
+    img = Image.open(f'test_imgs/{testImg}').convert('RGB')
     size = (224, 224)
-    image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
+    img = ImageOps.fit(img, size, Image.Resampling.LANCZOS)
 
-    image_array = np.asarray(image)
+    img_arr = np.asarray(img)
 
-    normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
+    norm_img_arr = (img_arr.astype(np.float32) / 127.0) - 1
 
-    data[0] = normalized_image_array
+    data[0] = norm_img_arr
 
     prediction = model.predict(data)
     index = np.argmax(prediction)
@@ -36,7 +36,6 @@ for testImg in test_imgs:
         negative.append([testImg + ',' + str(index)])
     
     total_score += prediction[0][index]
-
 
 for dataX in positive:
     df = pd.DataFrame(dataX)
