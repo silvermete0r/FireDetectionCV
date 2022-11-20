@@ -19,6 +19,6 @@ Computer Vision program for detecting fire in video and images. The program was 
 * [Keras](https://keras.io/)
 * [Google Collab](https://colab.research.google.com/)
 
-<! -- References -->
+
 [test-imgs-results]: https://sun9-west.userapi.com/sun9-6/s/v1/ig2/Xz950WkFJFfigR6y7fyG4IhhLkh1lv2HR_NP83PqLg2hFAfHmxa5g-wVI9wjkTVtL6g-1VWvLwrBlfWueWVdpQpS.jpg?size=639x210&quality=95&type=album
 [contributors-url]: https://github.com/silvermete0r
