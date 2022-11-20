@@ -15,6 +15,9 @@ Computer Vision program for detecting fire in video and images. The program was 
 
 [![Testing Results][test-imgs-results]][contributors-url]
 
+## Experiments
+1) We tried to use Haar cascades for fire detection, and trained the `fire_cascade.xml`, but unfortunately the accuracy was very low.
+2) Finally we decided to use Tensorflow & Keras technologies for training our model, using [Tensorflow.js](https://github.com/tensorflow/tfjs.git) library.
 
 ## Acknowledgments
 
