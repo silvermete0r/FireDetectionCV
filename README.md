@@ -9,5 +9,16 @@ Computer Vision program for detecting fire in video and images. The program was 
 5) `fire_keras.py` is the main program that processes all images in the directory `test_imgs` by our trained model and shows the results of testing.
 6) `test_labels.csv` contains results of the processing of all images of `test_imgs` dataset in which the class `1` means the presence of fire, and `0` its absence;
 
-## 
+## Testing & Results
+[![Testing Results][test-imgs-results]][contributors-url]
 
+
+## Acknowledgments
+
+* [TensorFlow](https://www.tensorflow.org/)
+* [Keras](https://keras.io/)
+* [Google Collab](https://colab.research.google.com/)
+
+<! -- References -->
+[test-imgs-results]: https://sun9-west.userapi.com/sun9-6/s/v1/ig2/Xz950WkFJFfigR6y7fyG4IhhLkh1lv2HR_NP83PqLg2hFAfHmxa5g-wVI9wjkTVtL6g-1VWvLwrBlfWueWVdpQpS.jpg?size=639x210&quality=95&type=album
+[contributors-url]: https://github.com/silvermete0r
